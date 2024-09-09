@@ -228,10 +228,331 @@
                                     </div>
                                 </div>
                             </div>
+                            <section class="pricing-section">
+                                <div class="container">
+                                    <h2 class="section-heading">Coming soon:</h2>
+                                    <div class="pricing-list">
+
+                                        <!-- Basic Recovery Plan -->
+                                        <div class="pricing-item">
+                                            <h3 class="pricing-plan">Basic Recovery Plan</h3>
+                                            <p class="price">₹499</p>
+                                            <p class="price-duration">per month</p>
+                                            <a href="#" class="more-info">More info</a>
+                                            <p class="description">Get personalized health notes for pregnancy, postpartum, and menstrual care. Easy-to-understand and accurate.</p>
+                                            <div class="features">
+                                                <div class="feature-item">
+                                                    <span class="feature-icon">✔️</span>
+                                                    <span>Maternal care</span>
+                                                </div>
+                                                <div class="feature-item">
+                                                    <span class="feature-icon">✔️</span>
+                                                    <span>Symptom tracking</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Advanced Recovery Plan -->
+                                        <div class="pricing-item">
+                                            <div class="popular-tag">Popular</div>
+                                            <h3 class="pricing-plan">Advanced Recovery Plan</h3>
+                                            <p class="price">₹999</p>
+                                            <p class="price-duration">per month</p>
+                                            <a href="#" class="more-info">More info</a>
+                                            <p class="description">Includes everything in the Basic plan plus enhanced support for surgical recovery. Track progress easily.</p>
+                                            <div class="features">
+                                                <div class="feature-item">
+                                                    <span class="feature-icon">✔️</span>
+                                                    <span>Surgery notes</span>
+                                                </div>
+                                                <div class="feature-item">
+                                                    <span class="feature-icon">✔️</span>
+                                                    <span>Advanced tracking</span>
+                                                </div>
+                                                <div class="feature-item">
+                                                    <span class="feature-icon">✔️</span>
+                                                    <span>Meal and Fitness tracker</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Premium Recovery Plan -->
+                                        <div class="pricing-item">
+                                            <h3 class="pricing-plan">Premium Recovery Plan</h3>
+                                            <p class="price">₹2499</p>
+                                            <p class="price-duration">per month</p>
+                                            <a href="#" class="more-info">More info</a>
+                                            <p class="description">All-inclusive plan with personalized guidance, advanced recovery support, and automated reminders for medication.</p>
+                                            <div class="features">
+                                                <div class="feature-item">
+                                                    <span class="feature-icon">✔️</span>
+                                                    <span>Full support</span>
+                                                </div>
+                                                <div class="feature-item">
+                                                    <span class="feature-icon">✔️</span>
+                                                    <span>Reminders</span>
+                                                </div>
+                                                <div class="feature-item">
+                                                    <span class="feature-icon">✔️</span>
+                                                    <span>Free 2 weekly online check-up's</span>
+                                                </div>
+                                                <div class="feature-item">
+                                                    <span class="feature-icon">✔️</span>
+                                                    <span>Intelligent analysis based on WHO data</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </section>
+                            <style>
+                                /* Global Styles */
+                                body {
+                                    margin: 0;
+                                    font-family: 'Poppins', sans-serif;
+                                    background-color: #f9fafb;
+                                }
+
+                                /* Pricing Section */
+                                .pricing-section {
+                                    background-color: #f9fafb;
+                                    padding: 4rem 1rem;
+                                }
+
+                                .container {
+                                    max-width: 1200px;
+                                    margin: 0 auto;
+                                }
+
+                                .section-heading {
+                                    font-size: 2.5rem;
+                                    text-align: center;
+                                    margin-bottom: 3rem;
+                                    font-family: 'Poppins', sans-serif;
+                                    color: #333;
+                                }
+
+                                /* Pricing Cards */
+                                .pricing-list {
+                                    display: grid;
+                                    grid-template-columns: repeat(3, 1fr);
+                                    gap: 2rem;
+                                }
+
+                                .pricing-item {
+                                    background-color: #ffffff;
+                                    border: 1px solid #e5e7eb;
+                                    border-radius: 8px;
+                                    padding: 2rem;
+                                    transition: box-shadow 0.3s ease;
+                                    text-align: center;
+                                }
+
+                                .pricing-item:hover {
+                                    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+                                }
+
+                                .pricing-plan {
+                                    font-size: 1.5rem;
+                                    font-weight: 600;
+                                    margin-bottom: 1rem;
+                                    color: #111827;
+                                }
+
+                                .price {
+                                    font-size: 2rem;
+                                    font-weight: 700;
+                                    color: #1d4ed8;
+                                    margin-bottom: 0.5rem;
+                                }
+
+                                .price-duration {
+                                    font-size: 1rem;
+                                    color: #6b7280;
+                                    margin-bottom: 1.5rem;
+                                }
+
+                                .more-info {
+                                    display: inline-block;
+                                    padding: 0.75rem 1.5rem;
+                                    border: 2px solid #1d4ed8;
+                                    color: #1d4ed8;
+                                    border-radius: 6px;
+                                    text-decoration: none;
+                                    font-weight: 600;
+                                    transition: background-color 0.3s ease, color 0.3s ease;
+                                }
+
+                                .more-info:hover {
+                                    background-color: #1d4ed8;
+                                    color: #ffffff;
+                                }
+
+                                .description {
+                                    font-size: 1rem;
+                                    color: #4b5563;
+                                    margin: 1.5rem 0;
+                                }
+
+                                .features {
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 0.75rem;
+                                    font-size: 1rem;
+                                    color: #374151;
+                                    text-align: left;
+                                }
+
+                                .feature-item {
+                                    display: flex;
+                                    align-items: center;
+                                    gap: 0.5rem;
+                                }
+
+                                .feature-icon {
+                                    color: #10b981;
+                                }
+
+                                .popular-tag {
+                                    display: inline-block;
+                                    padding: 0.25rem 0.75rem;
+                                    font-size: 0.85rem;
+                                    background-color: #10b981;
+                                    color: #fff;
+                                    border-radius: 9999px;
+                                    margin-bottom: 1rem;
+                                    font-weight: 600;
+                                }
+
+                                /* Responsive Design */
+                                @media (max-width: 1024px) {
+                                    .pricing-list {
+                                        grid-template-columns: repeat(2, 1fr);
+                                    }
+                                }
+
+                                @media (max-width: 768px) {
+                                    .pricing-list {
+                                        grid-template-columns: 1fr;
+                                    }
+                                }
+                            </style>
+
                         </div>
                     </section>
 
                     <p></p>
+                    <section class="patient-guide">
+                        <div class="container">
+                            <h2 class="section-heading">Patient Guide</h2>
+                            <div class="faq-list">
+                                <div class="faq-item">
+                                    <h3 class="faq-question">What services do you offer?</h3>
+                                    <p class="faq-answer">We offer personalized notes for pregnancy, postpartum care, menstrual health, and support for surgery recovery.</p>
+                                </div>
+                                <div class="faq-item">
+                                    <h3 class="faq-question">How can I track my recovery?</h3>
+                                    <p class="faq-answer">You can track your progress through our digital platform, which includes tools to manage symptoms and monitor recovery.</p>
+                                </div>
+                                <div class="faq-item">
+                                    <h3 class="faq-question">Is the information medically accurate?</h3>
+                                    <p class="faq-answer">Yes, our platform provides easy-to-understand, medically accurate information to support your recovery.</p>
+                                </div>
+                                <div class="faq-item">
+                                    <h3 class="faq-question">Do you bridge the gap with healthcare professionals?</h3>
+                                    <p class="faq-answer">Yes, we aim to improve patient outcomes by connecting patients and healthcare professionals through continuous support.</p>
+                                </div>
+                                <div class="faq-item">
+                                    <h3 class="faq-question">Can I manage my symptoms through your platform?</h3>
+                                    <p class="faq-answer">Yes, our platform helps you manage symptoms and adhere to prescribed medical regimens effectively.</p>
+                                </div>
+                                <div class="faq-item">
+                                    <h3 class="faq-question">Is there support for individuals recovering from surgeries?</h3>
+                                    <p class="faq-answer">Yes, we address specific needs of individuals recovering from surgeries with tailored information and guidance.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <style>
+                        /* Patient Guide Section */
+                        body {
+                            margin: 0;
+                            font-family: 'Poppins', sans-serif;
+                            background-color: #f9ffsb;
+                        }
+
+                        .patient-guide {
+                            background-color: #f9afb;
+                            /* Light background for contrast */
+                            padding: 4rem 0;
+                        }
+
+                        .container {
+                            max-width: 1200px;
+                            margin: 0 auto;
+                            padding: 0 1.5rem;
+                        }
+
+                        .section-heading {
+                            font-size: 2.5rem;
+                            text-align: center;
+                            margin-bottom: 3rem;
+                            font-family: 'Poppins', sans-serif;
+                            /* Modern font */
+                            color: #333;
+                        }
+
+                        /* FAQ List */
+                        .faq-list {
+                            display: grid;
+                            grid-template-columns: 1fr 1fr;
+                            gap: 2rem;
+                        }
+
+                        .faq-item {
+                            background-color: #ffffff;
+                            border: 1px solid #e5e7eb;
+                            border-radius: 8px;
+                            padding: 1.5rem;
+                            transition: box-shadow 0.3s ease;
+                        }
+
+                        .faq-item:hover {
+                            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+                        }
+
+                        .faq-question {
+                            font-size: 1.5rem;
+                            font-weight: 600;
+                            margin-bottom: 1rem;
+                            color: purple;
+                            font-family: 'Poppins', sans-serif;
+                        }
+
+                        .faq-answer {
+                            font-size: 1rem;
+                            color: #4b5563;
+                            line-height: 1.6;
+                            font-family: 'Roboto', sans-serif;
+                            /* Slightly more readable font for content */
+                        }
+
+                        /* Responsive Design */
+                        @media (max-width: 768px) {
+                            .faq-list {
+                                grid-template-columns: 1fr;
+                            }
+
+                            .faq-question {
+                                font-size: 1.25rem;
+                            }
+
+                            .faq-answer {
+                                font-size: 0.95rem;
+                            }
+                        }
+                    </style>
                     <footer class="border-t dark:border-0 dark:bg-slate-900" sectioncomponent="MixoFooter">
                         <footer>
                             <p>&copy; 2024 Medimitr. All Rights Reserved.</p>

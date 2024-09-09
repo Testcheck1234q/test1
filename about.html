@@ -8,53 +8,71 @@
     <title>About Us | Medimitr</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background: linear-gradient(135deg, #f4f4f4, #e0f7fa);
+            color: #333;
+            line-height: 1.6;
         }
 
         header {
-            background-color: #00fa5;
+            background: linear-gradient(90deg, #00bfa5, #0288d1);
             padding: 20px;
-            text-align: center;
             color: white;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
         }
 
         nav {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 0 20px;
+            max-width: 1200px;
+            margin: 0 auto;
         }
 
         nav a {
             text-decoration: none;
-            color: grey;
+            color: white;
             font-size: 1.2em;
             margin-left: 20px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffe082;
         }
 
         h1 {
-            margin: 0;
             font-size: 2.5em;
+            margin: 0;
+            font-weight: 700;
         }
 
         .container {
             max-width: 1200px;
-            margin: 20px auto;
+            margin: 40px auto;
             padding: 20px;
-            background-color: white;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            background: #fff;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
 
         h2 {
-            color: #00bfa5;
+            font-size: 2em;
+            color: #0288d1;
+            text-align: center;
+            margin-bottom: 20px;
         }
 
         p {
+            font-size: 1.2em;
             line-height: 1.8;
             color: #555;
+            text-align: justify;
         }
 
         .cta {
@@ -63,24 +81,31 @@
         }
 
         .cta button {
-            background-color: #00bfa5;
+            background: linear-gradient(90deg, #00bfa5, #0288d1);
             color: white;
-            padding: 10px 20px;
+            padding: 12px 30px;
             border: none;
             font-size: 1.2em;
+            border-radius: 50px;
             cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .cta button:hover {
+            background: linear-gradient(90deg, #0288d1, #00bfa5);
         }
 
         footer {
-            background-color: #333;
+            background: linear-gradient(90deg, #0288d1, #00bfa5);
             color: white;
-            padding: 20px;
+            padding: 30px;
             text-align: center;
-            margin-top: 30px;
+            margin-top: 40px;
         }
 
         footer p {
             margin: 0;
+            font-size: 1em;
         }
     </style>
 </head>
@@ -91,12 +116,13 @@
             <!-- Logo & Site Name -->
             <a href="www.medimitr.com" class="gap-x-3 shrink-0 flex items-center">
                 <img class="h-16 w-auto" src="images/file-75f53cd0-9a42-482b-8dad-acec98066fb8.png" alt="MediMitr logo" width="170">
+                
             </a>
 
             <!-- Nav Items -->
             <div class="mx-auto shrink-0 gap-x-4 md:gap-x-8 flex">
-                <a href="index.html" class="text-lg md:text-xl font-sans font-medium text-white">Home</a>
-                <a href="#contact" class="text-lg md:text-xl font-sans font-medium text-white">Contact</a>
+                <a href="index.html">Home</a>
+                <a href="#contact">Contact</a>
             </div>
         </nav>
     </header>
@@ -104,19 +130,19 @@
     <div class="container" id="about">
         <h2>About Medimitr</h2>
         <p>
-            Welcome to Medimitr, a comprehensive digital platform dedicated to supporting individuals during crucial recovery periods. We specialize in providing personalized health notes for maternal care and post-surgery recovery, ensuring that patients receive the tailored guidance they need throughout their healing journey.
+            Welcome to Medimitr, a comprehensive digital platform designed to support individuals during crucial recovery periods. We specialize in providing personalized health notes for maternal care and post-surgery recovery, ensuring patients receive the tailored guidance they need to navigate their healing journey.
         </p>
         <p>
-            At Medimitr, we understand that recovery is a personal and sometimes challenging experience. Whether you're navigating the complexities of postpartum care, managing menstrual health, or recovering from surgery, our platform offers easy-to-understand, medically accurate information designed to empower you.
+            At Medimitr, we understand that recovery is deeply personal and often challenging. Whether you are managing postpartum care, menstrual health, or recovering from surgery, our platform offers easy-to-understand, medically accurate information to empower you with the knowledge you need to thrive.
         </p>
         <p>
-            Our mission is to bridge the gap between healthcare professionals and patients by providing accessible resources and continuous support. Medimitr promotes well-being through education, ongoing communication, and personalized recovery plans, enhancing the patient experience and improving outcomes.
+            Our mission is to bridge the gap between healthcare professionals and patients by providing accessible, smart resources and continuous support. Through personalized recovery plans, education, and ongoing communication, Medimitr enhances the patient experience, driving better health outcomes and peace of mind.
         </p>
 
         <div class="cta">
+            <button>Join Us Today</button>
         </div>
     </div>
-
 
     <footer>
         <p>&copy; 2024 Medimitr. All Rights Reserved.</p>
